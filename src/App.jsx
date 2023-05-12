@@ -3,6 +3,7 @@ import Features from "@partials/Features"
 import About from "@partials/About"
 import Description from "@partials/Description"
 import Services from "@partials/Services"
+import Ratings from "./partials/Ratings"
 
 function App() {
     return <>
@@ -11,6 +12,7 @@ function App() {
         <About />
         <Description />
         <Services />
+        <Ratings/>
     </>
 }
 
